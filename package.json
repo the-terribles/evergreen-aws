@@ -1,0 +1,35 @@
+{
+  "name": "trbl-evergreen-aws",
+  "version": "0.0.1",
+  "description": "Evergreen AWS directive",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --recursive",
+    "coverage": "./node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- test --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-terribles/evergreen-aws.git"
+  },
+  "keywords": [
+    "config",
+    "evergreen",
+    "aws"
+  ],
+  "author": "Edu Ponte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-terribles/evergreen-aws/issues"
+  },
+  "homepage": "https://github.com/the-terribles/evergreen-aws#readme",
+  "dependencies": {
+    "aws-sdk": "^2.7.21"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^1.6.1",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "trbl-evergreen": "0.0.5"
+  }
+}
